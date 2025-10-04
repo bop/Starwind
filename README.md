@@ -414,7 +414,7 @@ If you deploy to Netlify, use:
 ## ✅ Launch checklist
 
 - [ ] `astro.config.mjs` site URL set
-- [ ] `SITE_TITLE` / `SITE_DESCRIPTION` updated
+- [✅] `SITE_TITLE` / `SITE_DESCRIPTION` updated
 - [ ] Author data and avatar set
 - [ ] Favicons/app icons replaced in `public/`
 - [ ] Social share image (fallback) looks good
