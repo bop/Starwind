@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Starwind/
+      - name: https://bop.github.io/Starwind/
         uses: actions/checkout@v4
       - name: Install, build, and upload your site output
         uses: withastro/action@v4
