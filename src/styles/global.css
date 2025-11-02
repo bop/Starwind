@@ -8,25 +8,16 @@
 @import "./utilities.css";
 
 
-/*
-  NOTE: The /Starwind/ base path is hardcoded here because Astro's dev server
-  does not currently prepend the base path to font URLs in CSS.
-  See https://github.com/withastro/astro/issues/14585 for more details.
-*/
 @font-face {
 	font-family: "Atkinson";
-
-	src: url("/Starwind/fonts/atkinson-regular.woff") format("woff");
-
+	src: url("/fonts/atkinson-regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Atkinson";
-
-  src: url("/Starwind/fonts/atkinson-bold.woff") format("woff");
-
+	src: url("/fonts/atkinson-bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
